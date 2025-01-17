@@ -5,14 +5,19 @@ const useStyles = () => {
   const colors = useColors();
 
   return {
-    screenBackground: StyleSheet.create({
+    containerBackgroundColor: StyleSheet.create({
       container: {
+        backgroundColor: colors.screenBackground,
+      },
+    }).container,
+    backgroundColor: StyleSheet.create({
+      backgroundColor: {
         backgroundColor: colors.background,
       },
-    }),
+    }).backgroundColor,
     defaultTextColor: StyleSheet.create({
       text: {
-        color: colors.gray800,
+        color: colors.text,
       },
     }).text,
   };

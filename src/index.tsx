@@ -1,3 +1,5 @@
+export { ScreenLayout, ThemedText, ThemedView } from './components';
+
 export {
   marginBottomStyle,
   marginHorizontalStyle,
