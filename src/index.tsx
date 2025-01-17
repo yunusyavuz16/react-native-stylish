@@ -1,3 +1,6 @@
+export { createCustomStyles } from './helpers/createCustomStyles';
+export { extendColors } from './helpers/extendColors';
+
 export { ScreenLayout, ThemedText, ThemedView } from './components';
 
 export {
@@ -42,7 +45,15 @@ export {
 } from './styles';
 
 export { ThemeProvider, ThemeContext } from './context/ThemeContext';
-export { useColors } from './hooks/useColors';
+export { useColors, setCustomColors } from './hooks/useColors';
 export { useTheme } from './hooks/useTheme';
 export { default as useStyles } from './hooks/useStyles';
 export { Colors } from './constants/Colors';
+export type {
+  ColorPalette,
+  CustomColorConfig,
+  GenericColorPalette,
+  NamedStyles,
+  Theme,
+  ThemeContextType,
+} from './types';
