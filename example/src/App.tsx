@@ -1,27 +1,45 @@
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 import {
   alignItemsStyle,
   flexStyle,
   justifyContentStyle,
-  ScreenLayout,
-  textAlignStyle,
+  ratioWidthStyle,
   ThemeProvider,
+  useStyles
 } from 'react-native-stylish';
 
 export default function App() {
   return (
-    <ThemeProvider>
-      <ScreenLayout
-        style={[
-          flexStyle.flex1,
-          justifyContentStyle.justifyContentCenter,
-          alignItemsStyle.alignItemsCenter,
-        ]}
-      >
-        <Text style={[flexStyle.flex1, textAlignStyle.textAlignCenter]}>
-          React Native Stylish
-        </Text>
-      </ScreenLayout>
-    </ThemeProvider>
+    <View style={[flexStyle.flex1]}>
+      <ThemeProvider>
+        <View
+          style={[
+            flexStyle.flex1,
+            justifyContentStyle.justifyContentCenter,
+            alignItemsStyle.alignItemsCenter,
+          ]}
+        >
+          <NewApp />
+        </View>
+      </ThemeProvider>
+    </View>
   );
 }
+
+const NewApp = () => {
+  const { dangerBackgroundColorStyle,lightTextColorStyle } = useStyles();
+
+  return (
+    <View
+      style={[
+        flexStyle.flex1,
+        ratioWidthStyle.width100,
+        dangerBackgroundColorStyle,
+        alignItemsStyle.alignItemsCenter,
+        justifyContentStyle.justifyContentCenter,
+      ]}
+    >
+      <Text style={[lightTextColorStyle]}>React Native Stylish</Text>
+    </View>
+  );
+};
