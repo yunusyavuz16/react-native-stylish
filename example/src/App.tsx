@@ -1,10 +1,27 @@
 import { Text } from 'react-native';
-import { flexStyle, ThemeProvider } from 'react-native-stylish';
+import {
+  alignItemsStyle,
+  flexStyle,
+  justifyContentStyle,
+  ScreenLayout,
+  textAlignStyle,
+  ThemeProvider,
+} from 'react-native-stylish';
 
 export default function App() {
   return (
     <ThemeProvider>
-      <Text style={[flexStyle.flex1]}></Text>
+      <ScreenLayout
+        style={[
+          flexStyle.flex1,
+          justifyContentStyle.justifyContentCenter,
+          alignItemsStyle.alignItemsCenter,
+        ]}
+      >
+        <Text style={[flexStyle.flex1, textAlignStyle.textAlignCenter]}>
+          React Native Stylish
+        </Text>
+      </ScreenLayout>
     </ThemeProvider>
   );
 }

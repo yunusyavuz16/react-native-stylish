@@ -81,9 +81,8 @@ const STYLISH_GRAY_900_DARK = '#F5F5F5';
 
 export const Colors = {
   light: {
-    white: STYLISH_WHITE,
-    black: STYLISH_BLACK,
-    background: STYLISH_WHITE,
+    light: STYLISH_WHITE,
+    dark: STYLISH_BLACK,
     screenBackground: STYLISH_BG_LIGHT,
     text: STYLISH_TEXT_LIGHT,
     primary: STYLISH_PRIMARY_LIGHT,
@@ -111,9 +110,8 @@ export const Colors = {
     gray900: STYLISH_GRAY_900_LIGHT,
   },
   dark: {
-    white: STYLISH_WHITE,
-    black: STYLISH_BLACK,
-    background: STYLISH_BG_DARK,
+    light: STYLISH_BG_DARK,
+    dark: STYLISH_WHITE,
     screenBackground: STYLISH_BG_DARK,
     text: STYLISH_TEXT_DARK,
     primary: STYLISH_PRIMARY_DARK,
