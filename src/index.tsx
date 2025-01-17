@@ -1,6 +1,46 @@
-export { ThemeProvider } from "./context/ThemeContext";
-export { useColors } from "./hooks/useColors";
-export { useTheme } from "./hooks/useTheme";
-export { default as useStyles } from "./hooks/useStyles";
-export { Colors } from "./constants/Colors";
+export {
+  marginBottomStyle,
+  marginHorizontalStyle,
+  marginLeftStyle,
+  marginRightStyle,
+  marginStyle,
+  marginTopStyle,
+  marginVerticalStyle,
+  paddingBottomStyle,
+  paddingHorizontalStyle,
+  paddingLeftStyle,
+  paddingRightStyle,
+  paddingStyle,
+  paddingTopStyle,
+  paddingVerticalStyle,
+  alignItemsStyle,
+  borderBottomLeftRadiusStyle,
+  borderBottomRightRadiusStyle,
+  borderRadiusStyle,
+  borderTopLeftRadiusStyle,
+  borderTopRightRadiusStyle,
+  flexDirectionStyle,
+  flexStyle,
+  gapStyle,
+  justifyContentStyle,
+  positionStyle,
+  shadowStyle,
+  textAlignStyle,
+  textFontWeightStyle,
+  borderBottomWidthStyle,
+  borderLeftWidthStyle,
+  borderRightWidthStyle,
+  borderTopWidthStyle,
+  borderWidthStyle,
+  heightStyle,
+  ratioWidthStyle,
+  ratioheightStyle,
+  textFontSizeStyle,
+  widthStyle,
+} from './styles';
 
+export { ThemeProvider } from './context/ThemeContext';
+export { useColors } from './hooks/useColors';
+export { useTheme } from './hooks/useTheme';
+export { default as useStyles } from './hooks/useStyles';
+export { Colors } from './constants/Colors';

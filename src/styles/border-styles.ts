@@ -515,3 +515,527 @@ export const borderBottomLeftRadiusStyle = StyleSheet.create({
     borderBottomLeftRadius: Spacing.space32,
   },
 });
+
+
+
+
+export const borderTopWidthStyle = StyleSheet.create({
+  borderTopWidth0: {
+    borderTopWidth: Spacing.space0,
+  },
+  borderTopWidth1: {
+    borderTopWidth: Spacing.space1,
+  },
+  borderTopWidth2: {
+    borderTopWidth: Spacing.space2,
+  },
+  borderTopWidth3: {
+    borderTopWidth: Spacing.space3,
+  },
+  borderTopWidth4: {
+    borderTopWidth: Spacing.space4,
+  },
+  borderTopWidth5: {
+    borderTopWidth: Spacing.space5,
+  },
+  borderTopWidth6: {
+    borderTopWidth: Spacing.space6,
+  },
+  borderTopWidth7: {
+    borderTopWidth: Spacing.space7,
+  },
+  borderTopWidth8: {
+    borderTopWidth: Spacing.space8,
+  },
+  borderTopWidth9: {
+    borderTopWidth: Spacing.space9,
+  },
+  borderTopWidth10: {
+    borderTopWidth: Spacing.space10,
+  },
+  borderTopWidth11: {
+    borderTopWidth: Spacing.space11,
+  },
+  borderTopWidth12: {
+    borderTopWidth: Spacing.space12,
+  },
+  borderTopWidth13: {
+    borderTopWidth: Spacing.space13,
+  },
+  borderTopWidth14: {
+    borderTopWidth: Spacing.space14,
+  },
+  borderTopWidth15: {
+    borderTopWidth: Spacing.space15,
+  },
+  borderTopWidth16: {
+    borderTopWidth: Spacing.space16,
+  },
+  borderTopWidth17: {
+    borderTopWidth: Spacing.space17,
+  },
+  borderTopWidth18: {
+    borderTopWidth: Spacing.space18,
+  },
+  borderTopWidth19: {
+    borderTopWidth: Spacing.space19,
+  },
+  borderTopWidth20: {
+    borderTopWidth: Spacing.space20,
+  },
+  borderTopWidth21: {
+    borderTopWidth: Spacing.space21,
+  },
+  borderTopWidth22: {
+    borderTopWidth: Spacing.space22,
+  },
+  borderTopWidth23: {
+    borderTopWidth: Spacing.space23,
+  },
+  borderTopWidth24: {
+    borderTopWidth: Spacing.space24,
+  },
+  borderTopWidth25: {
+    borderTopWidth: Spacing.space25,
+  },
+  borderTopWidth26: {
+    borderTopWidth: Spacing.space26,
+  },
+  borderTopWidth27: {
+    borderTopWidth: Spacing.space27,
+  },
+  borderTopWidth28: {
+    borderTopWidth: Spacing.space28,
+  },
+  borderTopWidth29: {
+    borderTopWidth: Spacing.space29,
+  },
+  borderTopWidth30: {
+    borderTopWidth: Spacing.space30,
+  },
+  borderTopWidth31: {
+    borderTopWidth: Spacing.space31,
+  },
+  borderTopWidth32: {
+    borderTopWidth: Spacing.space32,
+  },
+});
+
+
+
+
+export const borderLeftWidthStyle = StyleSheet.create({
+  borderLeftWidth0: {
+    borderLeftWidth: Spacing.space0,
+  },
+  borderLeftWidth1: {
+    borderLeftWidth: Spacing.space1,
+  },
+  borderLeftWidth2: {
+    borderLeftWidth: Spacing.space2,
+  },
+  borderLeftWidth3: {
+    borderLeftWidth: Spacing.space3,
+  },
+  borderLeftWidth4: {
+    borderLeftWidth: Spacing.space4,
+  },
+  borderLeftWidth5: {
+    borderLeftWidth: Spacing.space5,
+  },
+  borderLeftWidth6: {
+    borderLeftWidth: Spacing.space6,
+  },
+  borderLeftWidth7: {
+    borderLeftWidth: Spacing.space7,
+  },
+  borderLeftWidth8: {
+    borderLeftWidth: Spacing.space8,
+  },
+  borderLeftWidth9: {
+    borderLeftWidth: Spacing.space9,
+  },
+  borderLeftWidth10: {
+    borderLeftWidth: Spacing.space10,
+  },
+  borderLeftWidth11: {
+    borderLeftWidth: Spacing.space11,
+  },
+  borderLeftWidth12: {
+    borderLeftWidth: Spacing.space12,
+  },
+  borderLeftWidth13: {
+    borderLeftWidth: Spacing.space13,
+  },
+  borderLeftWidth14: {
+    borderLeftWidth: Spacing.space14,
+  },
+  borderLeftWidth15: {
+    borderLeftWidth: Spacing.space15,
+  },
+  borderLeftWidth16: {
+    borderLeftWidth: Spacing.space16,
+  },
+  borderLeftWidth17: {
+    borderLeftWidth: Spacing.space17,
+  },
+  borderLeftWidth18: {
+    borderLeftWidth: Spacing.space18,
+  },
+  borderLeftWidth19: {
+    borderLeftWidth: Spacing.space19,
+  },
+  borderLeftWidth20: {
+    borderLeftWidth: Spacing.space20,
+  },
+  borderLeftWidth21: {
+    borderLeftWidth: Spacing.space21,
+  },
+  borderLeftWidth22: {
+    borderLeftWidth: Spacing.space22,
+  },
+  borderLeftWidth23: {
+    borderLeftWidth: Spacing.space23,
+  },
+  borderLeftWidth24: {
+    borderLeftWidth: Spacing.space24,
+  },
+  borderLeftWidth25: {
+    borderLeftWidth: Spacing.space25,
+  },
+  borderLeftWidth26: {
+    borderLeftWidth: Spacing.space26,
+  },
+  borderLeftWidth27: {
+    borderLeftWidth: Spacing.space27,
+  },
+  borderLeftWidth28: {
+    borderLeftWidth: Spacing.space28,
+  },
+  borderLeftWidth29: {
+    borderLeftWidth: Spacing.space29,
+  },
+  borderLeftWidth30: {
+    borderLeftWidth: Spacing.space30,
+  },
+  borderLeftWidth31: {
+    borderLeftWidth: Spacing.space31,
+  },
+  borderLeftWidth32: {
+    borderLeftWidth: Spacing.space32,
+  },
+});
+
+
+
+export const borderRightWidthStyle = StyleSheet.create({
+  borderRightWidth0: {
+    borderRightWidth: Spacing.space0,
+  },
+  borderRightWidth1: {
+    borderRightWidth: Spacing.space1,
+  },
+  borderRightWidth2: {
+    borderRightWidth: Spacing.space2,
+  },
+  borderRightWidth3: {
+    borderRightWidth: Spacing.space3,
+  },
+  borderRightWidth4: {
+    borderRightWidth: Spacing.space4,
+  },
+  borderRightWidth5: {
+    borderRightWidth: Spacing.space5,
+  },
+  borderRightWidth6: {
+    borderRightWidth: Spacing.space6,
+  },
+  borderRightWidth7: {
+    borderRightWidth: Spacing.space7,
+  },
+  borderRightWidth8: {
+    borderRightWidth: Spacing.space8,
+  },
+  borderRightWidth9: {
+    borderRightWidth: Spacing.space9,
+  },
+  borderRightWidth10: {
+    borderRightWidth: Spacing.space10,
+  },
+  borderRightWidth11: {
+    borderRightWidth: Spacing.space11,
+  },
+  borderRightWidth12: {
+    borderRightWidth: Spacing.space12,
+  },
+  borderRightWidth13: {
+    borderRightWidth: Spacing.space13,
+  },
+  borderRightWidth14: {
+    borderRightWidth: Spacing.space14,
+  },
+  borderRightWidth15: {
+    borderRightWidth: Spacing.space15,
+  },
+  borderRightWidth16: {
+    borderRightWidth: Spacing.space16,
+  },
+  borderRightWidth17: {
+    borderRightWidth: Spacing.space17,
+  },
+  borderRightWidth18: {
+    borderRightWidth: Spacing.space18,
+  },
+  borderRightWidth19: {
+    borderRightWidth: Spacing.space19,
+  },
+  borderRightWidth20: {
+    borderRightWidth: Spacing.space20,
+  },
+  borderRightWidth21: {
+    borderRightWidth: Spacing.space21,
+  },
+  borderRightWidth22: {
+    borderRightWidth: Spacing.space22,
+  },
+  borderRightWidth23: {
+    borderRightWidth: Spacing.space23,
+  },
+  borderRightWidth24: {
+    borderRightWidth: Spacing.space24,
+  },
+  borderRightWidth25: {
+    borderRightWidth: Spacing.space25,
+  },
+  borderRightWidth26: {
+    borderRightWidth: Spacing.space26,
+  },
+  borderRightWidth27: {
+    borderRightWidth: Spacing.space27,
+  },
+  borderRightWidth28: {
+    borderRightWidth: Spacing.space28,
+  },
+  borderRightWidth29: {
+    borderRightWidth: Spacing.space29,
+  },
+  borderRightWidth30: {
+    borderRightWidth: Spacing.space30,
+  },
+  borderRightWidth31: {
+    borderRightWidth: Spacing.space31,
+  },
+  borderRightWidth32: {
+    borderRightWidth: Spacing.space32,
+  },
+});
+
+
+
+
+export const borderWidthStyle = StyleSheet.create({
+  borderWidth0: {
+    borderWidth: Spacing.space0,
+  },
+  borderWidth1: {
+    borderWidth: Spacing.space1,
+  },
+  borderWidth2: {
+    borderWidth: Spacing.space2,
+  },
+  borderWidth3: {
+    borderWidth: Spacing.space3,
+  },
+  borderWidth4: {
+    borderWidth: Spacing.space4,
+  },
+  borderWidth5: {
+    borderWidth: Spacing.space5,
+  },
+  borderWidth6: {
+    borderWidth: Spacing.space6,
+  },
+  borderWidth7: {
+    borderWidth: Spacing.space7,
+  },
+  borderWidth8: {
+    borderWidth: Spacing.space8,
+  },
+  borderWidth9: {
+    borderWidth: Spacing.space9,
+  },
+  borderWidth10: {
+    borderWidth: Spacing.space10,
+  },
+  borderWidth11: {
+    borderWidth: Spacing.space11,
+  },
+  borderWidth12: {
+    borderWidth: Spacing.space12,
+  },
+  borderWidth13: {
+    borderWidth: Spacing.space13,
+  },
+  borderWidth14: {
+    borderWidth: Spacing.space14,
+  },
+  borderWidth15: {
+    borderWidth: Spacing.space15,
+  },
+  borderWidth16: {
+    borderWidth: Spacing.space16,
+  },
+  borderWidth17: {
+    borderWidth: Spacing.space17,
+  },
+  borderWidth18: {
+    borderWidth: Spacing.space18,
+  },
+  borderWidth19: {
+    borderWidth: Spacing.space19,
+  },
+  borderWidth20: {
+    borderWidth: Spacing.space20,
+  },
+  borderWidth21: {
+    borderWidth: Spacing.space21,
+  },
+  borderWidth22: {
+    borderWidth: Spacing.space22,
+  },
+  borderWidth23: {
+    borderWidth: Spacing.space23,
+  },
+  borderWidth24: {
+    borderWidth: Spacing.space24,
+  },
+  borderWidth25: {
+    borderWidth: Spacing.space25,
+  },
+  borderWidth26: {
+    borderWidth: Spacing.space26,
+  },
+  borderWidth27: {
+    borderWidth: Spacing.space27,
+  },
+  borderWidth28: {
+    borderWidth: Spacing.space28,
+  },
+  borderWidth29: {
+    borderWidth: Spacing.space29,
+  },
+  borderWidth30: {
+    borderWidth: Spacing.space30,
+  },
+  borderWidth31: {
+    borderWidth: Spacing.space31,
+  },
+  borderWidth32: {
+    borderWidth: Spacing.space32,
+  },
+});
+
+
+export const borderBottomWidthStyle = StyleSheet.create({
+  borderBottomWidth0: {
+    borderBottomWidth: Spacing.space0,
+  },
+  borderBottomWidth1: {
+    borderBottomWidth: Spacing.space1,
+  },
+  borderBottomWidth2: {
+    borderBottomWidth: Spacing.space2,
+  },
+  borderBottomWidth3: {
+    borderBottomWidth: Spacing.space3,
+  },
+  borderBottomWidth4: {
+    borderBottomWidth: Spacing.space4,
+  },
+  borderBottomWidth5: {
+    borderBottomWidth: Spacing.space5,
+  },
+  borderBottomWidth6: {
+    borderBottomWidth: Spacing.space6,
+  },
+  borderBottomWidth7: {
+    borderBottomWidth: Spacing.space7,
+  },
+  borderBottomWidth8: {
+    borderBottomWidth: Spacing.space8,
+  },
+  borderBottomWidth9: {
+    borderBottomWidth: Spacing.space9,
+  },
+  borderBottomWidth10: {
+    borderBottomWidth: Spacing.space10,
+  },
+  borderBottomWidth11: {
+    borderBottomWidth: Spacing.space11,
+  },
+  borderBottomWidth12: {
+    borderBottomWidth: Spacing.space12,
+  },
+  borderBottomWidth13: {
+    borderBottomWidth: Spacing.space13,
+  },
+  borderBottomWidth14: {
+    borderBottomWidth: Spacing.space14,
+  },
+  borderBottomWidth15: {
+    borderBottomWidth: Spacing.space15,
+  },
+  borderBottomWidth16: {
+    borderBottomWidth: Spacing.space16,
+  },
+  borderBottomWidth17: {
+    borderBottomWidth: Spacing.space17,
+  },
+  borderBottomWidth18: {
+    borderBottomWidth: Spacing.space18,
+  },
+  borderBottomWidth19: {
+    borderBottomWidth: Spacing.space19,
+  },
+  borderBottomWidth20: {
+    borderBottomWidth: Spacing.space20,
+  },
+  borderBottomWidth21: {
+    borderBottomWidth: Spacing.space21,
+  },
+  borderBottomWidth22: {
+    borderBottomWidth: Spacing.space22,
+  },
+  borderBottomWidth23: {
+    borderBottomWidth: Spacing.space23,
+  },
+  borderBottomWidth24: {
+    borderBottomWidth: Spacing.space24,
+  },
+  borderBottomWidth25: {
+    borderBottomWidth: Spacing.space25,
+  },
+  borderBottomWidth26: {
+    borderBottomWidth: Spacing.space26,
+  },
+  borderBottomWidth27: {
+    borderBottomWidth: Spacing.space27,
+  },
+  borderBottomWidth28: {
+    borderBottomWidth: Spacing.space28,
+  },
+  borderBottomWidth29: {
+    borderBottomWidth: Spacing.space29,
+  },
+  borderBottomWidth30: {
+    borderBottomWidth: Spacing.space30,
+  },
+  borderBottomWidth31: {
+    borderBottomWidth: Spacing.space31,
+  },
+  borderBottomWidth32: {
+    borderBottomWidth: Spacing.space32,
+  },
+});
+
+

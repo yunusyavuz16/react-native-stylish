@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native";
-import { useColors } from "./useColors";
+import { StyleSheet } from 'react-native';
+import { useColors } from './useColors';
 
 const useStyles = () => {
   const colors = useColors();
@@ -7,15 +7,14 @@ const useStyles = () => {
   return {
     screenBackground: StyleSheet.create({
       container: {
-        backgroundColor: colors.screenBackground,
+        backgroundColor: colors.background,
       },
-    }).container,
-    textPrimary: StyleSheet.create({
+    }),
+    defaultTextColor: StyleSheet.create({
       text: {
-        color: colors.text,
+        color: colors.gray800,
       },
     }).text,
-    // Diğer stiller...
   };
 };
 

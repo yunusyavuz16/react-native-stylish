@@ -1,20 +1,10 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-stylish';
-
-const result = multiply(3, 7);
+import { Text } from 'react-native';
+import { flexStyle, ThemeProvider } from 'react-native-stylish';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <ThemeProvider>
+      <Text style={[flexStyle.flex1]}></Text>
+    </ThemeProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
