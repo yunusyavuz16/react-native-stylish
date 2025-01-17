@@ -39,7 +39,7 @@ export {
   widthStyle,
 } from './styles';
 
-export { ThemeProvider } from './context/ThemeContext';
+export { ThemeProvider, ThemeContext } from './context/ThemeContext';
 export { useColors } from './hooks/useColors';
 export { useTheme } from './hooks/useTheme';
 export { default as useStyles } from './hooks/useStyles';
