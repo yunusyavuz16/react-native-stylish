@@ -5,6 +5,10 @@ const STYLISH_BLACK = "#000";
 const STYLISH_BG_LIGHT = "#EDF0F8";
 const STYLISH_BG_DARK = "#1a1b24";
 
+// text
+const STYLISH_TEXT_LIGHT = "#11181C";
+const STYLISH_TEXT_DARK = "#ECEDEE";
+
 // primary
 const STYLISH_PRIMARY_LIGHT = "#1B84FF";
 const STYLISH_PRIMARY_DARK = "#006AE6";
@@ -80,6 +84,7 @@ export const Colors = {
     white: STYLISH_WHITE,
     black: STYLISH_BLACK,
     background: STYLISH_BG_LIGHT,
+    text: STYLISH_TEXT_LIGHT,
     primary: STYLISH_PRIMARY_LIGHT,
     lightPrimary: STYLISH_LIGHT_PRIMARY_LIGHT,
     danger: STYLISH_DANGER_LIGHT,
@@ -108,6 +113,7 @@ export const Colors = {
     white: STYLISH_WHITE,
     black: STYLISH_BLACK,
     background: STYLISH_BG_DARK,
+    text: STYLISH_TEXT_DARK,
     primary: STYLISH_PRIMARY_DARK,
     lightPrimary: STYLISH_LIGHT_PRIMARY_DARK,
     danger: STYLISH_DANGER_DARK,
