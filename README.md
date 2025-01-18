@@ -30,17 +30,6 @@ or
 yarn add react-native-stylish
 ```
 
-### Peer Dependencies
-
-Ensure the following dependencies are installed in your project:
-
-```json
-{
-  "react": "^18.0.0",
-  "react-native": "^0.71.0"
-}
-```
-
 ---
 
 ## 📖 Usage
