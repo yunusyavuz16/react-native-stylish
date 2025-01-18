@@ -27,6 +27,8 @@
     "target": "ESNext",
     "verbatimModuleSyntax": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
-  }
+    "declarationMap": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src"]
 }
