@@ -1,6 +1,5 @@
-# React Native Stylish Library
+# <img src="react-native-stylish.png" alt="React Native Stylish Logo" width="24" height="24" /> React Native Stylish Library
 
-![React Native Stylish Logo](react-native-stylish.png)
 
 A powerful, customizable, and type-safe styling library for React Native applications that supports light and dark themes with ease.
 
