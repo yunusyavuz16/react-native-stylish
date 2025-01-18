@@ -2,6 +2,7 @@
   <img width="256" height="256" src="react-native-stylish.png"/><br/>
   React Native Stylish Library
 </h1>
+
 A powerful, customizable, and type-safe styling library for React Native applications that supports light and dark themes with ease.
 
 ---
@@ -84,28 +85,6 @@ const MyComponent = () => {
 export default MyComponent;
 ```
 
-### Defining Custom Colors
-
-```tsx
-import { setCustomColors } from 'react-native-stylish/hooks/useColors';
-
-type MyCustomPalette = {
-  customPrimary: string;
-  customSecondary: string;
-};
-
-setCustomColors<MyCustomPalette>({
-  light: {
-    customPrimary: '#ff5733',
-    customSecondary: '#57ff33',
-  },
-  dark: {
-    customPrimary: '#5733ff',
-    customSecondary: '#33c1ff',
-  },
-});
-```
-
 ### Using Custom Colors
 
 ```tsx
@@ -171,7 +150,23 @@ import { ThemedText } from 'react-native-stylish/components/ThemedText';
 <ThemedText>Styled Text</ThemedText>;
 ```
 
----
+## Constants Styles
+
+| **Style**                | **Value**  | **Example Usage**          |
+|--------------------------|------------|----------------------------|
+| **flex**                  | 1-32       | `flexStyle.flex1`           |
+| **gap**                   | 0-32       | `gapStyle.gap1`             |
+| **justifyContent**        | Center, Start, End, SpaceBetween, SpaceAround | `justifyContentStyle.justifyContentCenter` |
+| **borderRadius**               | 0-32       | `borderRadiusStyle.borderRadius1`   |
+| **borderTopLeftRadius**        | 0-32       | `borderTopLeftRadiusStyle.borderTopLeftRadius1` |
+| **borderTopRightRadius**       | 0-32       | `borderTopRightRadiusStyle.borderTopRightRadius1` |
+| **borderBottomLeftRadius**     | 0-32       | `borderBottomLeftRadiusStyle.borderBottomLeftRadius1` |
+| **borderBottomRightRadius**    | 0-32       | `borderBottomRightRadiusStyle.borderBottomRightRadius1` |
+| **borderTopWidth**             | 0-32       | `borderTopWidthStyle.borderTopWidth1` |
+| **borderLeftWidth**            | 0-32       | `borderLeftWidthStyle.borderLeftWidth1` |
+| **borderRightWidth**           | 0-32       | `borderRightWidthStyle.borderRightWidth1` |
+| **borderWidth**                | 0-32       | `borderWidthStyle.borderWidth1`     |
+| **borderBottomWidth**          | 0-32       | `borderBottomWidthStyle.borderBottomWidth1` |
 
 ## Predefined Colors
 
