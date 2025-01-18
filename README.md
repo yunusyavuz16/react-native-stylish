@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="react-native-stylish.png"/><br/>
+  <img width="256" height="256" src="react-native-stylish.png"/><br/>
   React Native Stylish Library
 </h1>
 
