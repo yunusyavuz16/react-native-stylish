@@ -1,16 +1,16 @@
-import { Text, TouchableOpacity, View } from 'react-native';
+import { TouchableOpacity, View } from 'react-native';
 import {
   alignItemsStyle,
   borderRadiusStyle,
   flexStyle,
   justifyContentStyle,
   paddingStyle,
-  ratioWidthStyle,
+  ScreenLayout,
   setCustomColors,
+  ThemedText,
   ThemeProvider,
   useColors,
-  useStyles,
-  useTheme,
+  useTheme
 } from 'react-native-stylish';
 
 type MyCustomPalette = {
@@ -22,11 +22,11 @@ type MyCustomPalette = {
 setCustomColors<MyCustomPalette>({
   light: {
     customPrimary: '#ff5733',
-    customSecondary: '#33c1ff',
+    customSecondary: '#57ff33',
   },
   dark: {
     customPrimary: '#5733ff',
-    customSecondary: '#57ff33',
+    customSecondary: '#33c1ff',
   },
 });
 
@@ -41,18 +41,15 @@ export default function App() {
 }
 
 const HomeScreen = () => {
-  const { lightTextColorStyle } = useStyles();
   const colors = useColors<MyCustomPalette>();
   const { toggleTheme } = useTheme();
 
   return (
-    <View
+    <ScreenLayout
       style={[
-        { backgroundColor: colors.customPrimary },
         flexStyle.flex1,
-        ratioWidthStyle.width100,
-        alignItemsStyle.alignItemsCenter,
         justifyContentStyle.justifyContentCenter,
+        alignItemsStyle.alignItemsCenter,
       ]}
     >
       <TouchableOpacity
@@ -67,8 +64,8 @@ const HomeScreen = () => {
           toggleTheme();
         }}
       >
-        <Text style={[lightTextColorStyle]}>React Native Stylish</Text>
+        <ThemedText>React Native Stylish</ThemedText>
       </TouchableOpacity>
-    </View>
+    </ScreenLayout>
   );
 };
