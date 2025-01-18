@@ -1,5 +1,7 @@
-# <img src="react-native-stylish.png" alt="React Native Stylish Logo" width="36" height="36" /> React Native Stylish Library
-
+<h1 align="center">
+  <img src=".react-native-stylish.png"/><br/>
+  React Native Stylish Library
+</h1>
 
 A powerful, customizable, and type-safe styling library for React Native applications that supports light and dark themes with ease.
 
