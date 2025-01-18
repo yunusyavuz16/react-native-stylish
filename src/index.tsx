@@ -1,10 +1,14 @@
-export { createCustomStyles } from './helpers/createCustomStyles';
-export { extendColors } from './helpers/extendColors';
-
 export { ScreenLayout, ThemedText, ThemedView } from './components';
 
 export {
-  marginBottomStyle,
+  alignItemsStyle,
+  borderBottomLeftRadiusStyle,
+  borderBottomRightRadiusStyle, borderBottomWidthStyle,
+  borderLeftWidthStyle, borderRadiusStyle, borderRightWidthStyle, borderTopLeftRadiusStyle,
+  borderTopRightRadiusStyle, borderTopWidthStyle,
+  borderWidthStyle, flexDirectionStyle,
+  flexStyle,
+  gapStyle, heightStyle, justifyContentStyle, marginBottomStyle,
   marginHorizontalStyle,
   marginLeftStyle,
   marginRightStyle,
@@ -17,43 +21,20 @@ export {
   paddingRightStyle,
   paddingStyle,
   paddingTopStyle,
-  paddingVerticalStyle,
-  alignItemsStyle,
-  borderBottomLeftRadiusStyle,
-  borderBottomRightRadiusStyle,
-  borderRadiusStyle,
-  borderTopLeftRadiusStyle,
-  borderTopRightRadiusStyle,
-  flexDirectionStyle,
-  flexStyle,
-  gapStyle,
-  justifyContentStyle,
-  positionStyle,
-  shadowStyle,
-  textAlignStyle,
-  textFontWeightStyle,
-  borderBottomWidthStyle,
-  borderLeftWidthStyle,
-  borderRightWidthStyle,
-  borderTopWidthStyle,
-  borderWidthStyle,
-  heightStyle,
-  ratioWidthStyle,
-  ratioheightStyle,
-  textFontSizeStyle,
-  widthStyle,
+  paddingVerticalStyle, positionStyle, ratioheightStyle, ratioWidthStyle, shadowStyle,
+  textAlignStyle, textFontSizeStyle, textFontWeightStyle, widthStyle
 } from './styles';
 
-export { ThemeProvider, ThemeContext } from './context/ThemeContext';
-export { useColors, setCustomColors } from './hooks/useColors';
-export { useTheme } from './hooks/useTheme';
-export { default as useStyles } from './hooks/useStyles';
 export { Colors } from './constants/Colors';
+export { ThemeContext, ThemeProvider } from './context/ThemeContext';
+export { setCustomColors, useColors } from './hooks/useColors';
+export { default as useStyles } from './hooks/useStyles';
+export { useTheme } from './hooks/useTheme';
 export type {
   ColorPalette,
   CustomColorConfig,
   GenericColorPalette,
-  NamedStyles,
   Theme,
-  ThemeContextType,
+  ThemeContextType
 } from './types';
+

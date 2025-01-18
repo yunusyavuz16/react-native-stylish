@@ -1,14 +1,15 @@
-import type { Colors } from '../constants/Colors';
+import type { Colors } from "../constants/Colors";
 
-export type GenericColorPalette = {
-  [key: string]: string;
+// Updated CustomColorConfig with Generics
+export type CustomColorConfig<T extends GenericColorPalette = GenericColorPalette> = {
+  light: Partial<T>;
+  dark: Partial<T>;
 };
 
-// Define the default color palette type
-export type ColorPalette = (typeof Colors)['light'] & GenericColorPalette;
+// Updated ColorPalette Type
+export type ColorPalette = (typeof Colors)['light']; // Default library colors
 
-// Define the custom color configuration for both themes
-export type CustomColorConfig = {
-  light: Partial<ColorPalette>;
-  dark: Partial<ColorPalette>;
-};
+export type ExtendedColorPalette<T extends GenericColorPalette = ColorPalette> = T;
+
+// Default GenericColorPalette Type
+export type GenericColorPalette = Record<string, string>;
