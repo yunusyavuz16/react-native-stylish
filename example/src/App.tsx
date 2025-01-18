@@ -11,7 +11,7 @@ import {
   ThemeProvider,
   useColors,
   useTheme
-} from 'react-native-stylish';
+} from 'react-native-trendy';
 
 type MyCustomPalette = {
   customPrimary: string;
@@ -64,7 +64,7 @@ const HomeScreen = () => {
           toggleTheme();
         }}
       >
-        <ThemedText>React Native Stylish</ThemedText>
+        <ThemedText>React Native Trendy</ThemedText>
       </TouchableOpacity>
     </ScreenLayout>
   );

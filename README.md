@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img width="256" height="256" src="react-native-stylish.png"/><br/>
-  React Native Stylish Library
+  <img width="256" height="256" src="react-native-trendy.png"/><br/>
+  React Native Trendy Library
 </h1>
 
 A powerful, customizable, and type-safe styling library for React Native applications that supports light and dark themes with ease.
@@ -21,13 +21,13 @@ A powerful, customizable, and type-safe styling library for React Native applica
 ### Installation
 
 ```bash
-npm install react-native-stylish
+npm install react-native-trendy
 ```
 
 or
 
 ```bash
-yarn add react-native-stylish
+yarn add react-native-trendy
 ```
 
 ---
@@ -40,7 +40,7 @@ Wrap your app with the `ThemeProvider` from `ThemeContext`:
 
 ```tsx
 import React from 'react';
-import { ThemeProvider } from 'react-native-stylish';
+import { ThemeProvider } from 'react-native-trendy';
 import { NewApp } from './App';
 
 const App = () => (
@@ -59,14 +59,14 @@ Use the `useColors` hook to get the theme-specific colors:
 ```tsx
 import React from 'react';
 import { View, Text } from 'react-native';
-import { useColors } from 'react-native-stylish';
+import { useColors } from 'react-native-trendy';
 
 const MyComponent = () => {
   const colors = useColors();
 
   return (
     <View style={{ backgroundColor: colors.primary }}>
-      <Text style={{ color: colors.text }}>Hello Stylish World!</Text>
+      <Text style={{ color: colors.text }}>Hello trendy World!</Text>
     </View>
   );
 };
@@ -77,7 +77,7 @@ export default MyComponent;
 ### Using Custom Colors
 
 ```tsx
-import { setCustomColors } from 'react-native-stylish';
+import { setCustomColors } from 'react-native-trendy';
 import { TouchableOpacity } from 'react-native';
 
 
@@ -111,7 +111,7 @@ const CustomComponent = () => {
       ]}
       onPress={() => {}}
     >
-      <ThemedText>React Native Stylish</ThemedText>
+      <ThemedText>React Native trendy</ThemedText>
     </TouchableOpacity>
   );
 };
@@ -123,7 +123,7 @@ const CustomComponent = () => {
 A `View` component that adapts to the current theme.
 
 ```tsx
-import { ThemedView } from 'react-native-stylish';
+import { ThemedView } from 'react-native-trendy';
 
 <ThemedView>
   <Text>Hello, Themed World!</Text>
@@ -134,7 +134,7 @@ import { ThemedView } from 'react-native-stylish';
 A `Text` component that applies theme-specific styles.
 
 ```tsx
-import { ThemedText } from 'react-native-stylish';
+import { ThemedText } from 'react-native-trendy';
 
 <ThemedText>Styled Text</ThemedText>;
 ```

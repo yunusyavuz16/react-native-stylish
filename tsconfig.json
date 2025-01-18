@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-stylish": ["./src/index"]
+      "react-native-trendy": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
