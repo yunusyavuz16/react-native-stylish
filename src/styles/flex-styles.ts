@@ -14,7 +14,7 @@ export const flexStyle = StyleSheet.create({
     flex4: {
       flex: 4,
     },
-    flex5: {
+  flex5: {
       flex: 5,
     },
     flex6: {

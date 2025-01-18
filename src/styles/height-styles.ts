@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const ratioheightStyle = StyleSheet.create({
+export const ratioHeightStyle = StyleSheet.create({
   height0: {
     height: '0%',
   },

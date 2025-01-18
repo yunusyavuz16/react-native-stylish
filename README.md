@@ -51,7 +51,7 @@ Wrap your app with the `ThemeProvider` from `ThemeContext`:
 
 ```tsx
 import React from 'react';
-import { ThemeProvider } from 'react-native-stylish/context/ThemeContext';
+import { ThemeProvider } from 'react-native-stylish';
 import { NewApp } from './App';
 
 const App = () => (
@@ -70,7 +70,7 @@ Use the `useColors` hook to get the theme-specific colors:
 ```tsx
 import React from 'react';
 import { View, Text } from 'react-native';
-import { useColors } from 'react-native-stylish/hooks/useColors';
+import { useColors } from 'react-native-stylish';
 
 const MyComponent = () => {
   const colors = useColors();
@@ -88,7 +88,7 @@ export default MyComponent;
 ### Using Custom Colors
 
 ```tsx
-import { setCustomColors } from 'react-native-stylish/hooks/useColors';
+import { setCustomColors } from 'react-native-stylish';
 import { TouchableOpacity } from 'react-native';
 
 
@@ -134,7 +134,7 @@ const CustomComponent = () => {
 A `View` component that adapts to the current theme.
 
 ```tsx
-import { ThemedView } from 'react-native-stylish/components/ThemedView';
+import { ThemedView } from 'react-native-stylish';
 
 <ThemedView>
   <Text>Hello, Themed World!</Text>
@@ -145,28 +145,113 @@ import { ThemedView } from 'react-native-stylish/components/ThemedView';
 A `Text` component that applies theme-specific styles.
 
 ```tsx
-import { ThemedText } from 'react-native-stylish/components/ThemedText';
+import { ThemedText } from 'react-native-stylish';
 
 <ThemedText>Styled Text</ThemedText>;
 ```
 
-## Constants Styles
+## Hooks
+
+### `useColors`
+
+The `useColors` hook provides access to the current theme’s colors (light or dark). It returns the extended color palette, including both default and custom colors.
+
+#### Usage:
+
+```tsx
+import { useColors } from 'your-library-name';
+
+const MyComponent = () => {
+  const colors = useColors();
+
+  return (
+    <View style={{ backgroundColor: colors.primary }}>
+      <Text style={{ color: colors.text }}>Hello, World!</Text>
+    </View>
+  );
+};
+```
+
+### `useTheme`
+The `useTheme` hook provides access to the current theme context. It is used internally by useColors but can also be used directly if needed.
+
+#### Usage:
+
+```tsx
+import { useTheme } from 'your-library-name';
+
+const MyComponent = () => {
+  const { theme } = useTheme();
+
+  return (
+    <View>
+      <Text>The current theme is: {theme}</Text>
+    </View>
+  );
+};
+```
+
+### `useStyles`
+
+The `useStyles` hook provides predefined style functions that are dynamically adjusted based on the current theme and color palette.
+
+#### Usage:
+
+```tsx
+import useStyles from 'your-library-name';
+
+const MyComponent = () => {
+  const styles = useStyles();
+
+  return (
+    <View style={styles.containerBackgroundColorStyle}>
+      <Text style={styles.textColorStyle}>Styled Text</Text>
+    </View>
+  );
+};
+```
+
+## Predefined Styles
 
 | **Style**                | **Value**  | **Example Usage**          |
 |--------------------------|------------|----------------------------|
-| **flex**                  | 1-32       | `flexStyle.flex1`           |
-| **gap**                   | 0-32       | `gapStyle.gap1`             |
-| **justifyContent**        | Center, Start, End, SpaceBetween, SpaceAround | `justifyContentStyle.justifyContentCenter` |
-| **borderRadius**               | 0-32       | `borderRadiusStyle.borderRadius1`   |
-| **borderTopLeftRadius**        | 0-32       | `borderTopLeftRadiusStyle.borderTopLeftRadius1` |
-| **borderTopRightRadius**       | 0-32       | `borderTopRightRadiusStyle.borderTopRightRadius1` |
-| **borderBottomLeftRadius**     | 0-32       | `borderBottomLeftRadiusStyle.borderBottomLeftRadius1` |
-| **borderBottomRightRadius**    | 0-32       | `borderBottomRightRadiusStyle.borderBottomRightRadius1` |
-| **borderTopWidth**             | 0-32       | `borderTopWidthStyle.borderTopWidth1` |
-| **borderLeftWidth**            | 0-32       | `borderLeftWidthStyle.borderLeftWidth1` |
-| **borderRightWidth**           | 0-32       | `borderRightWidthStyle.borderRightWidth1` |
-| **borderWidth**                | 0-32       | `borderWidthStyle.borderWidth1`     |
-| **borderBottomWidth**          | 0-32       | `borderBottomWidthStyle.borderBottomWidth1` |
+| **alignItems**              | Center, Start, End, Stretch  | `alignItemsStyle.alignItemsCenter` |
+| **borderBottomLeftRadius**  | 0-32                         | `borderBottomLeftRadiusStyle.borderBottomLeftRadius1` |
+| **borderBottomRightRadius** | 0-32                         | `borderBottomRightRadiusStyle.borderBottomRightRadius1` |
+| **borderBottomWidth**       | 0-32                         | `borderBottomWidthStyle.borderBottomWidth1` |
+| **borderLeftWidth**         | 0-32                         | `borderLeftWidthStyle.borderLeftWidth1` |
+| **borderRadius**            | 0-32                         | `borderRadiusStyle.borderRadius1` |
+| **borderRightWidth**        | 0-32                         | `borderRightWidthStyle.borderRightWidth1` |
+| **borderTopLeftRadius**     | 0-32                         | `borderTopLeftRadiusStyle.borderTopLeftRadius1` |
+| **borderTopRightRadius**    | 0-32                         | `borderTopRightRadiusStyle.borderTopRightRadius1` |
+| **borderTopWidth**          | 0-32                         | `borderTopWidthStyle.borderTopWidth1` |
+| **flex**                    | 1-32                         | `flexStyle.flex1` |
+| **flexDirection**           | Row, Column, RowReverse, ColumnReverse | `flexDirectionStyle.flexDirectionRow` |
+| **gap**                     | 0-32                         | `gapStyle.gap1` |
+| **height**                  | 0, 4, 8, ..., 100           | `heightStyle.height40` |
+| **justifyContent**          | Center, Start, End, SpaceBetween, SpaceAround | `justifyContentStyle.justifyContentCenter` |
+| **margin**                  | -32, -31, -30, ..., 32       | `marginStyle.margin32` |
+| **marginBottom**            | -32, -31, -30, ..., 32       | `marginStyle.marginBottom32` |
+| **marginHorizontal**        | -32, -31, -30, ..., 32       | `marginStyle.marginHorizontal32` |
+| **marginLeft**              | -32, -31, -30, ..., 32       | `marginStyle.marginLeft32` |
+| **marginRight**             | -32, -31, -30, ..., 32       | `marginStyle.marginRight32` |
+| **marginTop**               | -32, -31, -30, ..., 32       | `marginStyle.marginTop32` |
+| **marginVertical**          | -32, -31, -30, ..., 32       | `marginStyle.marginVertical32` |
+| **padding**                 | -32, -31, -30, ..., 32       | `paddingStyle.padding32` |
+| **paddingBottom**           | -32, -31, -30, ..., 32       | `paddingStyle.paddingBottom32` |
+| **paddingHorizontal**       | -32, -31, -30, ..., 32       | `paddingStyle.paddingHorizontal32` |
+| **paddingLeft**             | -32, -31, -30, ..., 32       | `paddingStyle.paddingLeft32` |
+| **paddingRight**            | -32, -31, -30, ..., 32       | `paddingStyle.paddingRight32` |
+| **paddingTop**              | -32, -31, -30, ..., 32       | `paddingStyle.paddingTop32` |
+| **paddingVertical**         | -32, -31, -30, ..., 32       | `paddingStyle.paddingVertical32` |
+| **position**                | relative, absolute, fixed    | `positionStyle.positionRelative` |
+| **ratioheight**             | 0%, 4%, 8%, ..., 100%        | `ratioheightStyle.height40` |
+| **ratioWidth**              | 0%, 4%, 8%, ..., 100%        | `ratioWidthStyle.width40` |
+| **shadow**                  | Color: #000, Offset: (0, 2), Opacity: 0.25, Radius: 3.84, Elevation: 5 | `shadowStyle.shadow` |
+| **textAlign**               | center, left, right, justify | `textAlignStyle.textAlignCenter` |
+| **textFontSize**            | 6, 8, 10, ..., 32            | `textFontSizeStyle.textFontSize6` |
+| **textFontWeight**          | bold, 100, ..., 900, normal, light | `textFontWeightStyle.textFontWeightBold` |
+| **width**                   | 0, 4, 8, ..., 100           | `widthStyle.width40` |
 
 ## Predefined Colors
 

@@ -21,7 +21,7 @@ export {
   paddingRightStyle,
   paddingStyle,
   paddingTopStyle,
-  paddingVerticalStyle, positionStyle, ratioheightStyle, ratioWidthStyle, shadowStyle,
+  paddingVerticalStyle, positionStyle, ratioHeightStyle, ratioWidthStyle, shadowStyle,
   textAlignStyle, textFontSizeStyle, textFontWeightStyle, widthStyle
 } from './styles';
 

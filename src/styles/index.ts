@@ -1,4 +1,4 @@
-export { heightStyle, ratioheightStyle } from './height-styles';
+export { heightStyle, ratioHeightStyle } from './height-styles';
 export { widthStyle, ratioWidthStyle } from './width-styles';
 export {
   textAlignStyle,
