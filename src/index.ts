@@ -1,11 +1,14 @@
 // index.d.ts
 
-// Export components
-export { ScreenLayout, ThemedText, ThemedView } from './components';
-
-// Export styles
 export {
   alignItemsStyle,
+  flexDirectionStyle,
+  flexStyle,
+  gapStyle,
+  justifyContentStyle
+} from './styles/flex-styles';
+
+export {
   borderBottomLeftRadiusStyle,
   borderBottomRightRadiusStyle,
   borderBottomWidthStyle,
@@ -15,35 +18,47 @@ export {
   borderTopLeftRadiusStyle,
   borderTopRightRadiusStyle,
   borderTopWidthStyle,
-  borderWidthStyle,
-  flexDirectionStyle,
-  flexStyle,
-  gapStyle,
-  heightStyle,
-  justifyContentStyle,
+  borderWidthStyle
+} from './styles/border-styles';
+
+export {
   marginBottomStyle,
   marginHorizontalStyle,
   marginLeftStyle,
   marginRightStyle,
   marginStyle,
   marginTopStyle,
-  marginVerticalStyle,
+  marginVerticalStyle
+} from './styles/margin-styles';
+
+export {
   paddingBottomStyle,
   paddingHorizontalStyle,
   paddingLeftStyle,
   paddingRightStyle,
   paddingStyle,
   paddingTopStyle,
-  paddingVerticalStyle,
-  positionStyle,
-  ratioHeightStyle,
-  ratioWidthStyle,
-  shadowStyle,
+  paddingVerticalStyle
+} from './styles/padding-styles';
+
+export { positionStyle } from './styles/position-styles';
+
+export { shadowStyle } from './styles/shadow-styles';
+
+export {
   textAlignStyle,
   textFontSizeStyle,
-  textFontWeightStyle,
-  widthStyle
-} from './styles';
+  textFontWeightStyle
+} from './styles/text-styles';
+
+export { heightStyle, ratioHeightStyle } from './styles/height-styles';
+
+export { ratioWidthStyle, widthStyle } from './styles/width-styles';
+
+// Export components
+export { ScreenLayout } from './components/ScreenLayout';
+export { ThemedText } from './components/ThemedText';
+export { ThemedView } from './components/ThemedView';
 
 // Export constants
 export { Colors } from './constants/Colors';
@@ -60,7 +75,8 @@ export { useTheme } from './hooks/useTheme';
 export type {
   ColorPalette,
   CustomColorConfig,
-  GenericColorPalette,
-  Theme,
-  ThemeContextType
-} from './types';
+  ExtendedColorPalette,
+  GenericColorPalette
+} from './types/custom-colors';
+export type { Theme, ThemeContextType } from './types/index';
+
