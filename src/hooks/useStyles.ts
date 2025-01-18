@@ -129,4 +129,4 @@ const useStyles = () => {
   };
 };
 
-export default useStyles;
+export { useStyles };
