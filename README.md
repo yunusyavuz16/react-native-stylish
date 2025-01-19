@@ -248,36 +248,35 @@ Here is the list of predefined colors available in the library:
 
 ### Light Theme Colors
 
-
-| Name                  | Hex Value   | Preview                               |
-|-----------------------|-------------|---------------------------------------|
-| `light`               | `#fff`      | <div style="width: 20px; height: 20px; background-color: #fff; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `dark`                | `#000`      | <div style="width: 20px; height: 20px; background-color: #000; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `screenBackground`    | `#EDF0F8`   | <div style="width: 20px; height: 20px; background-color: #EDF0F8; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `text`                | `#11181C`   | <div style="width: 20px; height: 20px; background-color: #11181C; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `primary`             | `#1B84FF`   | <div style="width: 20px; height: 20px; background-color: #1B84FF; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `lightPrimary`        | `#E9F3FF`   | <div style="width: 20px; height: 20px; background-color: #E9F3FF; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `danger`              | `#F8285A`   | <div style="width: 20px; height: 20px; background-color: #F8285A; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `lightDanger`         | `#FFEEF3`   | <div style="width: 20px; height: 20px; background-color: #FFEEF3; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `success`             | `#17C653`   | <div style="width: 20px; height: 20px; background-color: #17C653; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `lightSuccess`        | `#EAFFF1`   | <div style="width: 20px; height: 20px; background-color: #EAFFF1; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `secondary`           | `#F1F1F4`   | <div style="width: 20px; height: 20px; background-color: #F1F1F4; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `lightSecondary`      | `#F9F9F9`   | <div style="width: 20px; height: 20px; background-color: #F9F9F9; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `info`                | `#7239EA`   | <div style="width: 20px; height: 20px; background-color: #7239EA; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `lightInfo`           | `#F8F5FF`   | <div style="width: 20px; height: 20px; background-color: #F8F5FF; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `warning`             | `#F6C000`   | <div style="width: 20px; height: 20px; background-color: #F6C000; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `lightWarning`        | `#FFF8DD`   | <div style="width: 20px; height: 20px; background-color: #FFF8DD; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `brand`               | `#FF6F1E`   | <div style="width: 20px; height: 20px; background-color: #FF6F1E; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `lightBrand`          | `#FFF5EF`   | <div style="width: 20px; height: 20px; background-color: #FFF5EF; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray100`             | `#F9F9F9`   | <div style="width: 20px; height: 20px; background-color: #F9F9F9; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray200`             | `#F1F1F4`   | <div style="width: 20px; height: 20px; background-color: #F1F1F4; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray300`             | `#DBDFE9`   | <div style="width: 20px; height: 20px; background-color: #DBDFE9; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray400`             | `#C4CADA`   | <div style="width: 20px; height: 20px; background-color: #C4CADA; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray500`             | `#99A1B7`   | <div style="width: 20px; height: 20px; background-color: #99A1B7; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray600`             | `#78829D`   | <div style="width: 20px; height: 20px; background-color: #78829D; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray700`             | `#4B5675`   | <div style="width: 20px; height: 20px; background-color: #4B5675; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray800`             | `#252F4A`   | <div style="width: 20px; height: 20px; background-color: #252F4A; border: 1px solid #ccc; border-radius: 4px;"></div> |
-| `gray900`             | `#071437`   | <div style="width: 20px; height: 20px; background-color: #071437; border: 1px solid #ccc; border-radius: 4px;"></div> |
+| Name                  | Hex Value   |
+|-----------------------|-------------|
+| `light`               | `#fff`      |
+| `dark`                | `#000`      |
+| `screenBackground`    | `#EDF0F8`   |
+| `text`                | `#11181C`   |
+| `primary`             | `#1B84FF`   |
+| `lightPrimary`        | `#E9F3FF`   |
+| `danger`              | `#F8285A`   |
+| `lightDanger`         | `#FFEEF3`   |
+| `success`             | `#17C653`   |
+| `lightSuccess`        | `#EAFFF1`   |
+| `secondary`           | `#F1F1F4`   |
+| `lightSecondary`      | `#F9F9F9`   |
+| `info`                | `#7239EA`   |
+| `lightInfo`           | `#F8F5FF`   |
+| `warning`             | `#F6C000`   |
+| `lightWarning`        | `#FFF8DD`   |
+| `brand`               | `#FF6F1E`   |
+| `lightBrand`          | `#FFF5EF`   |
+| `gray100`             | `#F9F9F9`   |
+| `gray200`             | `#F1F1F4`   |
+| `gray300`             | `#DBDFE9`   |
+| `gray400`             | `#C4CADA`   |
+| `gray500`             | `#99A1B7`   |
+| `gray600`             | `#78829D`   |
+| `gray700`             | `#4B5675`   |
+| `gray800`             | `#252F4A`   |
+| `gray900`             | `#071437`   |
 
 ### Dark Theme Colors
 
