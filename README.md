@@ -248,67 +248,67 @@ Here is the list of predefined colors available in the library:
 
 ### Light Theme Colors
 
-| Name                  | Hex Value   |
-|-----------------------|-------------|
-| `light`               | `#fff`      |
-| `dark`                | `#000`      |
-| `screenBackground`    | `#EDF0F8`   |
-| `text`                | `#11181C`   |
-| `primary`             | `#1B84FF`   |
-| `lightPrimary`        | `#E9F3FF`   |
-| `danger`              | `#F8285A`   |
-| `lightDanger`         | `#FFEEF3`   |
-| `success`             | `#17C653`   |
-| `lightSuccess`        | `#EAFFF1`   |
-| `secondary`           | `#F1F1F4`   |
-| `lightSecondary`      | `#F9F9F9`   |
-| `info`                | `#7239EA`   |
-| `lightInfo`           | `#F8F5FF`   |
-| `warning`             | `#F6C000`   |
-| `lightWarning`        | `#FFF8DD`   |
-| `brand`               | `#FF6F1E`   |
-| `lightBrand`          | `#FFF5EF`   |
-| `gray100`             | `#F9F9F9`   |
-| `gray200`             | `#F1F1F4`   |
-| `gray300`             | `#DBDFE9`   |
-| `gray400`             | `#C4CADA`   |
-| `gray500`             | `#99A1B7`   |
-| `gray600`             | `#78829D`   |
-| `gray700`             | `#4B5675`   |
-| `gray800`             | `#252F4A`   |
-| `gray900`             | `#071437`   |
+| Name                  | Hex Value   | Preview                               |
+|-----------------------|-------------|---------------------------------------|
+| `light`               | `#fff`      | ![#fff](https://placehold.co/15x15/fff/fff.png) |
+| `dark`                | `#000`      | ![#000](https://placehold.co/15x15/000/000.png) |
+| `screenBackground`    | `#EDF0F8`   | ![#EDF0F8](https://placehold.co/15x15/EDF0F8/EDF0F8.png) |
+| `text`                | `#11181C`   | ![#11181C](https://placehold.co/15x15/11181C/11181C.png) |
+| `primary`             | `#1B84FF`   | ![#1B84FF](https://placehold.co/15x15/1B84FF/1B84FF.png) |
+| `lightPrimary`        | `#E9F3FF`   | ![#E9F3FF](https://placehold.co/15x15/E9F3FF/E9F3FF.png) |
+| `danger`              | `#F8285A`   | ![#F8285A](https://placehold.co/15x15/F8285A/F8285A.png) |
+| `lightDanger`         | `#FFEEF3`   | ![#FFEEF3](https://placehold.co/15x15/FFEEF3/FFEEF3.png) |
+| `success`             | `#17C653`   | ![#17C653](https://placehold.co/15x15/17C653/17C653.png) |
+| `lightSuccess`        | `#EAFFF1`   | ![#EAFFF1](https://placehold.co/15x15/EAFFF1/EAFFF1.png) |
+| `secondary`           | `#F1F1F4`   | ![#F1F1F4](https://placehold.co/15x15/F1F1F4/F1F1F4.png) |
+| `lightSecondary`      | `#F9F9F9`   | ![#F9F9F9](https://placehold.co/15x15/F9F9F9/F9F9F9.png) |
+| `info`                | `#7239EA`   | ![#7239EA](https://placehold.co/15x15/7239EA/7239EA.png) |
+| `lightInfo`           | `#F8F5FF`   | ![#F8F5FF](https://placehold.co/15x15/F8F5FF/F8F5FF.png) |
+| `warning`             | `#F6C000`   | ![#F6C000](https://placehold.co/15x15/F6C000/F6C000.png) |
+| `lightWarning`        | `#FFF8DD`   | ![#FFF8DD](https://placehold.co/15x15/FFF8DD/FFF8DD.png) |
+| `brand`               | `#FF6F1E`   | ![#FF6F1E](https://placehold.co/15x15/FF6F1E/FF6F1E.png) |
+| `lightBrand`          | `#FFF5EF`   | ![#FFF5EF](https://placehold.co/15x15/FFF5EF/FFF5EF.png) |
+| `gray100`             | `#F9F9F9`   | ![#F9F9F9](https://placehold.co/15x15/F9F9F9/F9F9F9.png) |
+| `gray200`             | `#F1F1F4`   | ![#F1F1F4](https://placehold.co/15x15/F1F1F4/F1F1F4.png) |
+| `gray300`             | `#DBDFE9`   | ![#DBDFE9](https://placehold.co/15x15/DBDFE9/DBDFE9.png) |
+| `gray400`             | `#C4CADA`   | ![#C4CADA](https://placehold.co/15x15/C4CADA/C4CADA.png) |
+| `gray500`             | `#99A1B7`   | ![#99A1B7](https://placehold.co/15x15/99A1B7/99A1B7.png) |
+| `gray600`             | `#78829D`   | ![#78829D](https://placehold.co/15x15/78829D/78829D.png) |
+| `gray700`             | `#4B5675`   | ![#4B5675](https://placehold.co/15x15/4B5675/4B5675.png) |
+| `gray800`             | `#252F4A`   | ![#252F4A](https://placehold.co/15x15/252F4A/252F4A.png) |
+| `gray900`             | `#071437`   | ![#071437](https://placehold.co/15x15/071437/071437.png) |
 
 ### Dark Theme Colors
 
-| Name                  | Hex Value   |
-|-----------------------|-------------|
-| `light`               | `#1a1b24`   |
-| `dark`                | `#fff`      |
-| `screenBackground`    | `#1a1b24`   |
-| `text`                | `#ECEDEE`   |
-| `primary`             | `#006AE6`   |
-| `lightPrimary`        | `#172331`   |
-| `danger`              | `#E42855`   |
-| `lightDanger`         | `#302024`   |
-| `success`             | `#00A261`   |
-| `lightSuccess`        | `#1F2623`   |
-| `secondary`           | `#363843`   |
-| `lightSecondary`      | `#363843`   |
-| `info`                | `#883FFF`   |
-| `lightInfo`           | `#272134`   |
-| `warning`             | `#C59A00`   |
-| `lightWarning`        | `#242320`   |
-| `brand`               | `#D74E00`   |
-| `lightBrand`          | `#272320`   |
-| `gray100`             | `#1B1C22`   |
-| `gray200`             | `#26272F`   |
-| `gray300`             | `#363843`   |
-| `gray400`             | `#464852`   |
-| `gray500`             | `#636674`   |
-| `gray600`             | `#808290`   |
-| `gray700`             | `#9A9CAE`   |
-| `gray800`             | `#B5B7C8`   |
-| `gray900`             | `#F5F5F5`   |
+| Name                  | Hex Value   | Preview                               |
+|-----------------------|-------------|---------------------------------------|
+| `light`               | `#1a1b24`   | ![#1a1b24](https://placehold.co/15x15/1a1b24/1a1b24.png) |
+| `dark`                | `#fff`      | ![#fff](https://placehold.co/15x15/fff/fff.png) |
+| `screenBackground`    | `#1a1b24`   | ![#1a1b24](https://placehold.co/15x15/1a1b24/1a1b24.png) |
+| `text`                | `#ECEDEE`   | ![#ECEDEE](https://placehold.co/15x15/ECEDEE/ECEDEE.png) |
+| `primary`             | `#006AE6`   | ![#006AE6](https://placehold.co/15x15/006AE6/006AE6.png) |
+| `lightPrimary`        | `#172331`   | ![#172331](https://placehold.co/15x15/172331/172331.png) |
+| `danger`              | `#E42855`   | ![#E42855](https://placehold.co/15x15/E42855/E42855.png) |
+| `lightDanger`         | `#302024`   | ![#302024](https://placehold.co/15x15/302024/302024.png) |
+| `success`             | `#00A261`   | ![#00A261](https://placehold.co/15x15/00A261/00A261.png) |
+| `lightSuccess`        | `#1F2623`   | ![#1F2623](https://placehold.co/15x15/1F2623/1F2623.png) |
+| `secondary`           | `#363843`   | ![#363843](https://placehold.co/15x15/363843/363843.png) |
+| `lightSecondary`      | `#363843`   | ![#363843](https://placehold.co/15x15/363843/363843.png) |
+| `info`                | `#883FFF`   | ![#883FFF](https://placehold.co/15x15/883FFF/883FFF.png) |
+| `lightInfo`           | `#272134`   | ![#272134](https://placehold.co/15x15/272134/272134.png) |
+| `warning`             | `#C59A00`   | ![#C59A00](https://placehold.co/15x15/C59A00/C59A00.png) |
+| `lightWarning`        | `#242320`   | ![#242320](https://placehold.co/15x15/242320/242320.png) |
+| `brand`               | `#D74E00`   | ![#D74E00](https://placehold.co/15x15/D74E00/D74E00.png) |
+| `lightBrand`          | `#272320`   | ![#272320](https://placehold.co/15x15/272320/272320.png) |
+| `gray100`             | `#1B1C22`   | ![#1B1C22](https://placehold.co/15x15/1B1C22/1B1C22.png) |
+| `gray200`             | `#26272F`   | ![#26272F](https://placehold.co/15x15/26272F/26272F.png) |
+| `gray300`             | `#363843`   | ![#363843](https://placehold.co/15x15/363843/363843.png) |
+| `gray400`             | `#464852`   | ![#464852](https://placehold.co/15x15/464852/464852.png) |
+| `gray500`             | `#636674`   | ![#636674](https://placehold.co/15x15/636674/636674.png) |
+| `gray600`             | `#808290`   | ![#808290](https://placehold.co/15x15/808290/808290.png) |
+| `gray700`             | `#9A9CAE`   | ![#9A9CAE](https://placehold.co/15x15/9A9CAE/9A9CAE.png) |
+| `gray800`             | `#B5B7C8`   | ![#B5B7C8](https://placehold.co/15x15/B5B7C8/B5B7C8.png) |
+| `gray900`             | `#F5F5F5`   | ![#F5F5F5](https://placehold.co/15x15/F5F5F5/F5F5F5.png) |
 
 ---
 
