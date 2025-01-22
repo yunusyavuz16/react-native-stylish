@@ -217,9 +217,10 @@ const MyComponent = () => {
 | **borderTopRightRadius**    | 0-32                         | `borderTopRightRadiusStyle.borderTopRightRadius1` |
 | **borderTopWidth**          | 0-32                         | `borderTopWidthStyle.borderTopWidth1` |
 | **flex**                    | 1-32                         | `flexStyle.flex1` |
-| **flexShrink**              | 1-32                         | `flexStyle.flexShrink1` |
-| **flexBasis**               | 1-32                         | `flexStyle.flexBasis1` |
-| **flexWrap**                | wrap, nowrap, wrapReverse    | `flexStyle.flexWrap` |
+| **flexShrink**              | -32, -31, -30, ..., 32       | `flexShrinkStyle.flexShrink1` |
+| **flexBasis**               | -32, -31, -30, ..., 32       | `flexBasisStyle.flexBasis1` |
+| **flexGrow**                | -32, -31, -30, ..., 32       | `flexGrowStyle.flexGrow1` |
+| **flexWrap**                | wrap, nowrap, wrapReverse    | `flexWrapStyle.flexWrap` |
 | **flexDirection**           | Row, Column, RowReverse, ColumnReverse | `flexDirectionStyle.flexDirectionRow` |
 | **gap**                     | 0-32                         | `gapStyle.gap1` |
 | **height**                  | 0, 4, 8, ..., 100           | `heightStyle.height40` |
