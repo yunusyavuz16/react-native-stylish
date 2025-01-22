@@ -1,7 +1,10 @@
 // Export components
-export { ScreenLayout } from './components/ScreenLayout';
-export { ThemedText } from './components/ThemedText';
-export { ThemedView } from './components/ThemedView';
+export {
+  ScreenLayout,
+  ErrorBoundary,
+  ThemedText,
+  ThemedView,
+} from './components';
 
 // Export constants
 export { Colors } from './constants/Colors';
