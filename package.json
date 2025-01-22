@@ -1,6 +1,6 @@
 {
   "name": "react-native-trendy",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A powerful, customizable, and type-safe styling library for React Native applications that supports light and dark themes with ease.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
