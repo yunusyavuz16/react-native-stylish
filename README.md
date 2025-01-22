@@ -205,6 +205,8 @@ const MyComponent = () => {
 | **Style**                | **Value**  | **Example Usage**          |
 |--------------------------|------------|----------------------------|
 | **alignItems**              | Center, Start, End, Stretch  | `alignItemsStyle.alignItemsCenter` |
+| **alignSelf**               | Center, Start, End, Stretch  | `alignSelfStyle.alignSelfCenter` |
+| **alignContent**            | Center, Start, End, Stretch  | `alignContentStyle.alignContentCenter` |
 | **borderBottomLeftRadius**  | 0-32                         | `borderBottomLeftRadiusStyle.borderBottomLeftRadius1` |
 | **borderBottomRightRadius** | 0-32                         | `borderBottomRightRadiusStyle.borderBottomRightRadius1` |
 | **borderBottomWidth**       | 0-32                         | `borderBottomWidthStyle.borderBottomWidth1` |
@@ -215,6 +217,9 @@ const MyComponent = () => {
 | **borderTopRightRadius**    | 0-32                         | `borderTopRightRadiusStyle.borderTopRightRadius1` |
 | **borderTopWidth**          | 0-32                         | `borderTopWidthStyle.borderTopWidth1` |
 | **flex**                    | 1-32                         | `flexStyle.flex1` |
+| **flexShrink**              | 1-32                         | `flexStyle.flexShrink1` |
+| **flexBasis**               | 1-32                         | `flexStyle.flexBasis1` |
+| **flexWrap**                | wrap, nowrap, wrapReverse    | `flexStyle.flexWrap` |
 | **flexDirection**           | Row, Column, RowReverse, ColumnReverse | `flexDirectionStyle.flexDirectionRow` |
 | **gap**                     | 0-32                         | `gapStyle.gap1` |
 | **height**                  | 0, 4, 8, ..., 100           | `heightStyle.height40` |
