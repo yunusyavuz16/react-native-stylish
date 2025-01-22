@@ -39,7 +39,8 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli lib",
     "prepare": "bob build",
-    "release": "release-it"
+    "release": "release-it",
+    "c": "rm -rf yarn.lock node_modules lib example/node_modules example/yarn.lock && yarn install && yarn example"
   },
   "keywords": [
     "react-native",
@@ -67,6 +68,7 @@
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
     "commitlint": "^17.0.2",
+    "conventional-changelog-angular": "^8.0.0",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
@@ -115,7 +117,7 @@
     },
     "plugins": {
       "@release-it/conventional-changelog": {
-        "preset": "angular"
+        "preset": "conventional-changelog-angular"
       }
     }
   },
