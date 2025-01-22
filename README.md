@@ -223,7 +223,7 @@ const MyComponent = () => {
 | **flexWrap**                | wrap, nowrap, wrapReverse    | `flexWrapStyle.flexWrap` |
 | **flexDirection**           | Row, Column, RowReverse, ColumnReverse | `flexDirectionStyle.flexDirectionRow` |
 | **gap**                     | 0-32                         | `gapStyle.gap1` |
-| **height**                  | 0, 4, 8, ..., 100           | `heightStyle.height40` |
+| **height**                  | 0, 4, 8, ..., 100            | `heightStyle.height40` |
 | **justifyContent**          | Center, Start, End, SpaceBetween, SpaceAround | `justifyContentStyle.justifyContentCenter` |
 | **margin**                  | -32, -31, -30, ..., 32       | `marginStyle.margin32` |
 | **marginBottom**            | -32, -31, -30, ..., 32       | `marginStyle.marginBottom32` |
