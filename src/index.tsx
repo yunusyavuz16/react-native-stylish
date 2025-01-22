@@ -17,13 +17,15 @@ export type {
   ColorPalette,
   CustomColorConfig,
   ExtendedColorPalette,
-  GenericColorPalette
+  GenericColorPalette,
 } from './types/custom-colors';
 export type { Theme, ThemeContextType } from './types/index';
 
 // Export styles
 export {
+  alignContentStyle,
   alignItemsStyle,
+  alignSelfStyle,
   borderBottomLeftRadiusStyle,
   borderBottomRightRadiusStyle,
   borderBottomWidthStyle,
@@ -34,11 +36,17 @@ export {
   borderTopRightRadiusStyle,
   borderTopWidthStyle,
   borderWidthStyle,
+  bottomStyle,
+  flexBasisStyle,
   flexDirectionStyle,
+  flexGrowStyle,
+  flexShrinkStyle,
   flexStyle,
+  flexWrapStyle,
   gapStyle,
   heightStyle,
   justifyContentStyle,
+  leftStyle,
   marginBottomStyle,
   marginHorizontalStyle,
   marginLeftStyle,
@@ -56,10 +64,11 @@ export {
   positionStyle,
   ratioHeightStyle,
   ratioWidthStyle,
+  rightStyle,
   shadowStyle,
   textAlignStyle,
   textFontSizeStyle,
   textFontWeightStyle,
-  widthStyle
+  topStyle,
+  widthStyle,
 } from './styles';
-
