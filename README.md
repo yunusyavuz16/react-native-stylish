@@ -120,7 +120,7 @@ const CustomComponent = () => {
 ## 📦 Components
 
 ### `ThemedView`
-A `View` component that adapts to the current theme.
+A `View` component that adapts to the current theme. Uses the `light` color as the background color. You can check Predefined Light and Dark Theme Colors.
 
 ```tsx
 import { ThemedView } from 'react-native-trendy';
@@ -131,7 +131,7 @@ import { ThemedView } from 'react-native-trendy';
 ```
 
 ### `ThemedText`
-A `Text` component that applies theme-specific styles.
+A `Text` component that applies theme-specific styles. Uses the `text` color as the text color. You can check Predefined Light and Dark Theme Colors.
 
 ```tsx
 import { ThemedText } from 'react-native-trendy';
@@ -139,16 +139,48 @@ import { ThemedText } from 'react-native-trendy';
 <ThemedText>Styled Text</ThemedText>;
 ```
 
+### `ScreenLayout`
+A `View` component that adapts to the current theme. Uses the `screenBackground` color as the background color. You can check Predefined Light and Dark Theme Colors.
+
+```tsx
+import { ScreenLayout } from 'react-native-trendy';
+
+<ScreenLayout>{/* Screen components */}</ScreenLayout>;
+```
+
+### `ErrorBoundary`
+A component that catches errors.
+
+```tsx
+const CompleteExample = () => (
+  <ErrorBoundary
+    fallback={({ error, resetError }) => (
+      <ThemedView style={flexStyle.flex1}>
+        <ThemedText>An error occurred:</ThemedText>
+        <ThemedText>{error?.message}</ThemedText>
+        <Button title="Reset" onPress={resetError} />
+      </ThemedView>
+    )}
+    onError={(error, errorInfo) => {
+      // Log error to service
+      console.log('Error:', error);
+      console.log('Error Info:', errorInfo);
+    }}
+  >
+    <PotentiallyErrorProneComponent />
+  </ErrorBoundary>
+);
+```
+
 ## Hooks
 
 ### `useColors`
-
 The `useColors` hook provides access to the current theme’s colors (light or dark). It returns the extended color palette, including both default and custom colors.
 
 #### Usage:
 
 ```tsx
-import { useColors } from 'your-library-name';
+import { useColors } from 'react-native-trendy';
 
 const MyComponent = () => {
   const colors = useColors();
@@ -167,7 +199,7 @@ The `useTheme` hook provides access to the current theme context. It is used int
 #### Usage:
 
 ```tsx
-import { useTheme } from 'your-library-name';
+import { useTheme } from 'react-native-trendy';
 
 const MyComponent = () => {
   const { theme } = useTheme();
@@ -181,13 +213,12 @@ const MyComponent = () => {
 ```
 
 ### `useStyles`
-
 The `useStyles` hook provides predefined style functions that are dynamically adjusted based on the current theme and color palette.
 
 #### Usage:
 
 ```tsx
-import useStyles from 'your-library-name';
+import useStyles from 'react-native-trendy';
 
 const MyComponent = () => {
   const styles = useStyles();
@@ -288,7 +319,7 @@ Here is the list of predefined colors available in the library:
 
 | Name                  | Hex Value   | Preview                               |
 |-----------------------|-------------|---------------------------------------|
-| `light`               | `#1a1b24`   | ![#1a1b24](https://placehold.co/15x15/1a1b24/1a1b24.png) |
+| `light`               | `#000`      | ![#000](https://placehold.co/15x15/000/000.png) |
 | `dark`                | `#fff`      | ![#fff](https://placehold.co/15x15/fff/fff.png) |
 | `screenBackground`    | `#1a1b24`   | ![#1a1b24](https://placehold.co/15x15/1a1b24/1a1b24.png) |
 | `text`                | `#ECEDEE`   | ![#ECEDEE](https://placehold.co/15x15/ECEDEE/ECEDEE.png) |

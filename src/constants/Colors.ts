@@ -110,7 +110,7 @@ export const Colors = {
     gray900: TRENDY_GRAY_900_LIGHT,
   },
   dark: {
-    light: TRENDY_BG_DARK,
+    light: TRENDY_BLACK,
     dark: TRENDY_WHITE,
     screenBackground: TRENDY_BG_DARK,
     text: TRENDY_TEXT_DARK,
