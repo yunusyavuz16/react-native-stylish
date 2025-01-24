@@ -82,7 +82,7 @@ jobs:
         run: npm install
 
       - name: Build Example
-        run: npm run build:example
+        run: cd example && npm run build:example
 
       - name: Test Example App
-        run: npm run test:example
+        run: npm run test
