@@ -40,6 +40,7 @@
     "clean": "del-cli lib",
     "prepare": "bob build",
     "release": "release-it",
+    "build:example": "cd example && yarn install && yarn build",
     "c": "rm -rf yarn.lock node_modules lib example/node_modules example/yarn.lock && yarn install && yarn example"
   },
   "keywords": [
