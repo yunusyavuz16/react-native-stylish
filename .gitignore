@@ -165,7 +165,6 @@ $RECYCLE.BIN/
 # CocoaPods
 *.xcworkspace
 xcuserdata/
-*.lock
 Pods/
 Podfile.lock
 
@@ -204,7 +203,6 @@ lerna-debug.log
 .prettierignore
 
 # Yarn/PNPM lock files for `example`
-example/yarn.lock
 example/pnpm-lock.yaml
 
 # npm-pack output
